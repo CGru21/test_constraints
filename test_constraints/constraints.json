@@ -1,0 +1,32 @@
+{
+    "constraints": [
+      {
+        "constraintid": "SLTLx",
+        "formula": "Exists (?x) (<'CreateProject'(;?x)> (!F Exists (?y) (<'CreateProject'(;?y)> true)))"
+      },
+      {
+        "constraintid": "SLTLx",
+        "formula": "!F Exists (?x) (<'CreateVacancy'(?x;)> (F Exists (?y) (<'CreateVacancy'(?y;)> true)))"
+      },
+      {
+        "constraintid": "SLTLx",
+        "formula": "!F Exists (?x) (<'Relax'(?x;)> (F Exists (?y) (<'Relax'(?y;)> true)))"
+      },
+
+
+      {
+        "constraintid": "SLTLx",
+        "formula": "!F Exists (?x) 'Aluminium'(?x)"
+      },
+
+
+      {
+        "constraintid": "SLTLx",
+        "formula": "!F Exists (?x) Exists (?y) ((<'CalculateVacancyFormationEnergy'(?x,?y;)> true) & !R(?y,?x))"
+      },
+      {
+        "constraintid": "SLTLx",
+        "formula": "!F Exists (?x) ((<'CreateStructure'(;?x)> true) & (F Exists (?y) ((<'CalculateVacancyFormationEnergy'(;?y)> true) & (R(?x,?y)))))"
+      }
+    ]
+}

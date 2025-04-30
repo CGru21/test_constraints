@@ -1,0 +1,326 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy/"
+     xml:base="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Aluminium -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Aluminium">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Element"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Array -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Array">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Format"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Bulk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Bulk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Structure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#CalculateVacancyFormationEnergy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#CalculateVacancyFormationEnergy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#GetProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#ConfigureStructure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#ConfigureStructure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Tool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#CreateProject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#CreateProject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Tool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#CreateStructure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#CreateStructure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Tool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#CreateStructureBulk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#CreateStructureBulk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#CreateStructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#CreateStructureGenericBulk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#CreateStructureGenericBulk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#CreateStructureBulk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#CreateStructurePristineBulk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#CreateStructurePristineBulk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#CreateStructureBulk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#CreateStructureSlab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#CreateStructureSlab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#CreateStructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#CreateVacancy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#CreateVacancy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#ConfigureStructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Data -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Data"/>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Element -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Element">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Float -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Float">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Format"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Format -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Format">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Data"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#GenericBulk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#GenericBulk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Bulk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#GetProperty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#GetProperty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Tool"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Iron -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Iron">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Element"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#MaterialProperty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#MaterialProperty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#PristineBulk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#PristineBulk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Bulk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Project -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Project">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#ProjectFormat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#ProjectFormat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Format"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Relax -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Relax">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#ConfigureStructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#RelaxStructure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#RelaxStructure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Relax"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#RelaxVacancyStructure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#RelaxVacancyStructure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Relax"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#RelaxedStructure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#RelaxedStructure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Bulk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#RelaxedVacancyStructure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#RelaxedVacancyStructure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Bulk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Slab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Slab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Structure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#String -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#String">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Format"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Structure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Structure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#StructureFormat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#StructureFormat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Format"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Tool -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Tool"/>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Data"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#VacancyFormationEnergy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#VacancyFormationEnergy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#MaterialProperty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#VacancyStructure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#VacancyStructure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#Bulk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#pyiron_atomistics.atomistics.structure.atoms.Atoms -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#pyiron_atomistics.atomistics.structure.atoms.Atoms">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#StructureFormat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#pyiron_atomistics.project.Project -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#pyiron_atomistics.project.Project">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/charl/ontologies/2025/04/test_taxonomy#ProjectFormat"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
