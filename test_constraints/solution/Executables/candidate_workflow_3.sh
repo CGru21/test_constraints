@@ -4,15 +4,13 @@ if [ $# -ne 1 ]
 		echo "1 argument(s) expected."
 		exit
 fi
-node1010035837=$1
+node-1998507010=$1
 
 python - << EOF
 from pyiron.project import Project
 pr = Project('example_project')
 
 structure = pr.create_surface(Element, surface_type='fcc111', size=(3, 4, 4), vacuum=10, orthogonal=True)
-
-structure = pr.create.structure.ase.bulk(Element, cubic=True)
 
 # Create Vacancy Structure
 vacancy_structure = structure.copy()
@@ -25,6 +23,8 @@ relax_job.potential = relax_job.list_potentials()[0]
 relax_job.calc_minimize(pressure=0.0)
 relax_job.run()
 relax_structure = relax_job.get_final_structure()
+
+structure = pr.create.structure.ase.bulk(Element, cubic=True)
 
 # Calculate Vacancy Formation Energy
 bulk_job = pr.create_job(job_type=pr.job_type.Lammps, job_name='lammps_bulk', delete_existing_job=True)

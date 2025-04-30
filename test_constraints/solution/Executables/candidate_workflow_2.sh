@@ -4,7 +4,7 @@ if [ $# -ne 1 ]
 		echo "1 argument(s) expected."
 		exit
 fi
-node-1998507010=$1
+node1010035837=$1
 
 python - << EOF
 from pyiron.project import Project
