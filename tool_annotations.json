@@ -28,7 +28,7 @@
         "taxonomyOperations": ["CreateStructureGenericBulk"],
         "inputs": [
           { "Type": ["Project"] },
-          { "Type": ["Element"] }
+          { "Type": ["Element"], "Format": ["String"] }
         ],
         "outputs": [
           { "Type": ["GenericBulk"], "Format": ["pyiron_atomistics.atomistics.structure.atoms.Atoms"] }
@@ -41,7 +41,7 @@
         "taxonomyOperations": ["CreateStructureSlab"],
         "inputs": [
           { "Type": ["Project"] },
-          { "Type": ["Element"] }
+          { "Type": ["Element"], "Format": ["String"] }
         ],
         "outputs": [
           { "Type": ["Slab"], "Format": ["pyiron_atomistics.atomistics.structure.atoms.Atoms"] }
